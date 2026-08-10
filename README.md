@@ -42,10 +42,8 @@ portfolio/
     └── DBMS.pdf
 
 ```
-👤 About MD Amanullah
-🎓 Education: Pursuing MCA (AI & ML) at Rungta International Skills University, Bhilai | Graduated with B.Sc. in Zoology (2025) from LNMU.
+👤 Author MD Amanullah
 
-💡 Core Interests: Machine Learning, Deep Learning, Natural Language Processing (NLP), Python Development & Data Analytics.
 
 🔗 LinkedIn: md-amanullah-b23769384
 
