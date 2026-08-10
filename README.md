@@ -41,19 +41,6 @@ portfolio/
     ├── Foundations of AI and Machine Learning.pdf
     └── DBMS.pdf
 
-🚀 How to Run Locally
-Clone the repository:
-git clone [https://github.com/amanullahmd755-byte/portfolio.git](https://github.com/amanullahmd755-byte/portfolio.git)
-
-Navigate to the project directory:
-cd portfolio
-
-Open in Browser:
-Simply double-click index.html or open it using Live Server in VS Code.
-
-📄 License
-This project is open-source and available under the MIT License.
-
 ```
 👤 About MD Amanullah
 🎓 Education: Pursuing MCA (AI & ML) at Rungta International Skills University, Bhilai | Graduated with B.Sc. in Zoology (2025) from LNMU.
@@ -66,10 +53,5 @@ This project is open-source and available under the MIT License.
 
 📧 Email: amanumd041@gmail.com
 
----
-
-### Good Commit Message Suggestion 📝
-When committing this file to GitHub, use this clean commit message:
-> `docs: add professional README.md with project structure and feature documentation`
 
 
