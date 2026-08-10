@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MD Amanullah | AI & ML Specialist</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">Amanullah<span class="dot">.</span></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button onclick="openPdfModal('resume.pdf')" class="nav-resume-btn">Resume 📄</button></li>
+        <li><button id="theme-toggle" class="theme-btn">🌙</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <p class="greeting">HELLO, I'M MD AMANULLAH</p>
+      <h1>AI & <span class="highlight">Machine Learning</span> Engineer</h1>
+      <p class="subtext">Transforming complex data into intelligent algorithms and building future-ready AI solutions.</p>
+      
+      <div class="hero-buttons">
+        <a href="#contact" class="btn-primary">GET IN TOUCH &rarr;</a>
+        <button onclick="openPdfModal('resume.pdf')" class="btn-secondary">PREVIEW CV 📥</button>
+      </div>
+    </div>
+    
+    <div class="hero-image">
+      <img src="Profile Picture.jpeg" alt="MD Amanullah Profile">
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="underline"></div>
+    <div class="about-container">
+      <div class="about-image">
+        <img src="Profile Picture.jpeg" alt="MD Amanullah Profile">
+      </div>
+      <div class="about-text">
+        <p>Hi there! 👋 I’m <strong>Md Amanullah</strong>, an AI & Machine Learning enthusiast and Python developer. I’m currently pursuing my <strong>MCA in Artificial Intelligence & Machine Learning</strong> at Rungta International Skills University, Kohka, Bhilai.</p>
+        
+        <p>I love taking raw data and turning it into smart, practical solutions. My core interests lie in <strong>Machine Learning, Deep Learning, Natural Language Processing (NLP), and Data Analytics</strong>. Whether it's training predictive models, analyzing trends, or coding useful applications, I enjoy tackling real-world challenges hands-on.</p>
+        
+        <p>For me, tech is an ongoing journey of curiosity and growth. I’m constantly sharpening my skills in <strong>Python, Model Optimization, and Data Structures</strong> while building projects that make a real impact. I’m always open to collaborating on innovative AI ideas and learning something new every day!</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Education Section -->
+  <section id="education" class="section-padding dark-bg">
+    <h2>Education</h2>
+    <div class="underline"></div>
+    <div class="cards-grid">
+      
+      <!-- MCA Degree Card -->
+      <div class="card">
+        <h3>Master of Computer Applications (MCA)</h3>
+        <p class="card-subtitle">Present</p>
+        <p class="card-desc"><strong>Rungta International Skills University, Kohka, Bhilai</strong></p>
+        <p class="card-desc" style="margin-top: 8px;">Focusing on core AI algorithms, neural networks, predictive data analytics, and software development. Combining life Learning to build intelligent solutions.</p>
+      </div>
+
+      <!-- B.Sc. Zoology Degree Card -->
+      <div class="card">
+        <h3>Bachelor of Science (B.Sc.) in Zoology</h3>
+        <p class="card-subtitle">Graduated in 2025</p>
+        <p class="card-desc"><strong>Lalit Narayan Mithila University</strong></p>
+        <p class="card-desc" style="margin-top: 8px;">Built strong foundations in biology, research methodologies, and logical analysis. Developed observation and problem-solving skills that spark my interest in data science and real-world problem-solving.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section-padding">
+    <h2>Skills & Technologies</h2>
+    <div class="underline"></div>
+    <div class="skills-tags">
+      <span class="tag">Python</span>
+      <span class="tag">Machine Learning</span>
+      <span class="tag">Deep Learning</span>
+      <span class="tag">NLP</span>
+      <span class="tag">Linux</span>
+      <span class="tag">DBMS & SQL</span>
+      <span class="tag">Data Analytics</span>
+    </div>
+  </section>
+
+  <!-- Certificates Section -->
+  <section id="certificates" class="section-padding dark-bg">
+    <h2>Certifications</h2>
+    <div class="underline"></div>
+    <div class="cards-grid">
+
+      <div class="card cert-card">
+        <h3>Python for Data Science, AI & Development</h3>
+        <p class="card-subtitle">AI & Data Analytics Specialization</p>
+        <button onclick="openPdfModal('certificates/Python for Data Science, AI & Development.pdf')" class="cert-btn">Preview Certificate 👁️</button>
+      </div>
+
+      <div class="card cert-card">
+        <h3>Intermediate Coding In Python With AI</h3>
+        <p class="card-subtitle">Advanced Python & AI Integration</p>
+        <button onclick="openPdfModal('certificates/Intermediate Coding In python With AI.pdf')" class="cert-btn">Preview Certificate 👁️</button>
+      </div>
+
+      <div class="card cert-card">
+        <h3>Foundations of Linux</h3>
+        <p class="card-subtitle">Operating Systems & Command Line</p>
+        <button onclick="openPdfModal('certificates/Foundations of Linux.pdf')" class="cert-btn">Preview Certificate 👁️</button>
+      </div>
+
+      <div class="card cert-card">
+        <h3>Foundations of AI and Machine Learning</h3>
+        <p class="card-subtitle">Core Concepts & Algorithms</p>
+        <button onclick="openPdfModal('certificates/Foundations of AI and Machine Learning.pdf')" class="cert-btn">Preview Certificate 👁️</button>
+      </div>
+
+      <div class="card cert-card">
+        <h3>DBMS</h3>
+        <p class="card-subtitle">Database Management Systems</p>
+        <button onclick="openPdfModal('certificates/DBMS.pdf')" class="cert-btn">Preview Certificate 👁️</button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <h2>Get In Touch</h2>
+    <div class="underline"></div>
+    <div class="contact-wrapper">
+      
+      <div class="contact-info">
+        <h3>Let's Connect 👋</h3>
+        <p>I'm always open to discussing AI/ML projects, new opportunities, or creative ideas. Feel free to reach out!</p>
+        
+        <div class="info-item">
+          <span class="icon">📧</span>
+          <div>
+            <h4>Email</h4>
+            <a href="mailto:amanumd041@gmail.com" class="contact-link">amanumd041@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <div>
+            <h4>Location</h4>
+            <p>Bhilai, Chhattisgarh, India</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">🔗</span>
+          <div>
+            <h4>LinkedIn</h4>
+            <a href="https://www.linkedin.com/in/md-amanullah-b23769384/" target="_blank" class="contact-link">linkedin.com/in/md-amanullah-b23769384</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">💻</span>
+          <div>
+            <h4>GitHub</h4>
+            <a href="https://github.com/amanullahmd755-byte" target="_blank" class="contact-link">github.com/amanullahmd755-byte</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-container">
+        <h3>Send Me a Message 💬</h3>
+        <form id="contactForm" class="contact-form">
+          <div class="input-group">
+            <input type="text" id="name" placeholder="Your Name" required>
+          </div>
+          <div class="input-group">
+            <input type="email" id="email" placeholder="Your Email" required>
+          </div>
+          <div class="input-group">
+            <input type="text" id="subject" placeholder="Subject" required>
+          </div>
+          <div class="input-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary form-btn">Send Message 🚀</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Minimal Footer Section -->
+  <footer class="footer-minimal">
+    <div class="footer-container">
+      <p>&copy; 2026 MD Amanullah. All rights reserved. | Built with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- Floating Scroll to Top Arrow -->
+  <button id="scrollTopBtn" class="scroll-top-btn" title="Go to top">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- PDF PREVIEW MODAL POPUP -->
+  <div id="pdfModal" class="pdf-modal">
+    <div class="pdf-modal-content">
+      <div class="modal-header">
+        <span class="modal-title">Document Preview</span>
+        <button class="close-modal" onclick="closePdfModal()">&times;</button>
+      </div>
+      <div class="iframe-container">
+        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
